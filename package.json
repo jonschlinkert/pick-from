@@ -1,0 +1,38 @@
+{
+  "name": "pick-from",
+  "description": "Get the value of the first occurrence of `key` from an array of objects.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/pick-from",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/pick-from.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/pick-from/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/pick-from/blob/master/LICENSE-MIT"
+  },
+  "files": ["index.js"],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [],
+  "dependencies": {
+    "array-slice": "^0.2.2",
+    "object.pick": "^1.1.0"
+  }
+}
